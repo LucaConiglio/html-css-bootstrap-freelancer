@@ -1,10 +1,79 @@
 .bg-darkblue{
     background-color:#2c3e50 ;
 }
+.color-darkblue{
+    color: #2c3e50;
+}
+.border-color-darkblue{
+    border-color: #2c3e50;
+}
+.line-star{
+    border: 1px solid #2c3e50;
+    border-radius: 10px;
+}
 .bg-green{
     background-color: #1abc9c;
+}
+.color-green{
+    color: #1abc9c;
+}
+.bg-blue{
+    background-color: #3a546d;
 }
 
 section{
     padding: 2rem 0;
+}
+footer{
+    background-color: #2c3e50;
+    padding: 2rem;
+    color: white;
+    text-align: center;
+}
+.message{
+    padding-bottom: 5rem;
+}
+
+.nav-left{
+    font-size: medium;
+    font-weight: 600;
+}
+img{
+    width: 100%;
+    display: block;
+}
+.circle{
+    border: 0.5px solid white;
+    border-radius: 50%;
+    padding: 0.7rem 0.7rem;
+    margin: 0.2rem;
+    font-size: 12px;
+}
+.facebook{
+    padding: 0.6rem 0.8rem;
+}
+.google{
+    padding: 0.7rem 0.6rem;
+}
+
+
+@media screen and (min-width:576px) {
+    
+
+    .nav-left{
+        font-size:large;
+        font-weight: 700;
+    }
+
+}
+
+
+@media screen and (min-width:992px) {
+    
+
+    .nav-left{
+        font-size: x-large;
+        font-weight: 700;
+    }
+
 }
